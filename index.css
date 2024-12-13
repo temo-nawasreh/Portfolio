@@ -1,0 +1,343 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #110079!important;
+}
+
+.navbar {
+    background:  linear-gradient(to right,#110079,#bc2aab)!important;
+    color: aliceblue;
+  }
+
+  .navbar a:hover
+  {
+    background:  linear-gradient(to right,#b117e0,#2aabbc)!important;
+    
+  }
+
+  .nav-item
+  {
+    color: antiquewhite;
+  }
+
+ .img
+ {
+  margin-top: 11vw;
+  width: 25vw;
+  
+
+ }
+
+ .col h1,p{
+    margin-top: 8vw;
+    color:rgb(245, 250, 254);
+ }
+
+ .navbar-brand , .nav-link {
+    color:rgb(245, 250, 254)!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .span
+  {
+    color: #bc2aab;
+    font-family:monospace;
+    text-shadow: 2px 2px 4px rgb(255, 0, 234);
+  }
+
+  .col i{
+    /*width: 40px;*/
+    font-size:x-large;
+    color: #bc2aab;
+   
+    
+  }
+
+  .icons
+  {
+    position: absolute;
+    left: 18vw;
+    bottom: 34vh;
+    
+  }
+
+  #home
+  {
+    position: relative;
+  }
+
+
+  .btn
+  {
+    color: aliceblue!important;
+    position: absolute;
+    left: 2vw;
+    top: 10vh;
+    background:  linear-gradient(to right,#110079,#bc2aab)!important;
+  }
+
+  .btn:hover
+  {
+    
+     background:  linear-gradient(to right,#b117e0,#2aabbc)!important;
+  }
+
+
+  .about
+  {
+    margin-top: 55vh;
+    position: relative;
+   
+  }
+
+  .about .h1
+  {
+    background:  linear-gradient(to right,#b117e0,#2aabbc)!important;
+    width: 25%;
+    box-shadow: 10px 10px 5px rgb(230, 173, 228);
+    margin-bottom: 3vh;
+  }
+
+  .about .p{
+    margin-top: 2vh;
+      text-indent: 1vw;
+      position: absolute;
+      left:1vw;
+      text-align: start!important;
+  }
+
+  .about .col
+  {
+    margin-bottom: 10vh;
+  }
+
+
+  .MySkills
+  {
+    margin-top: 70vh!important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vw !important;
+    position: relative;
+  }
+
+.card
+{
+  
+  margin-left: 5vw;
+  background-color: #cc57ef!important;
+  box-shadow: 10px 10px 8px lightblue;;
+  height: 45vh!important;
+  width: 20vw!important;
+  position: relative;
+  
+
+}
+
+.card-title
+{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align: center;
+}
+
+.mysql
+{
+  position: absolute;
+  left: 10vw;
+}
+
+.card-title .ht{
+  color: rgb(237, 121, 12);
+}
+
+.php
+{
+  position: absolute;
+  left: 12vw;
+}
+
+
+
+#MySkills
+{
+  position: relative;
+}
+
+
+#MySkills .Myskills h1
+{
+  text-shadow: 3px 3px 5px rgb(223, 30, 237), 0 0 25px rgb(255, 0, 212), 0 0 5px rgb(214, 23, 244);
+  color: aliceblue;
+  position: absolute;
+  top:-20vh;
+  left: 45vw;
+}
+
+
+.Projects
+{
+  margin-top: 80vh;
+}
+
+
+#Projects img{
+  width: 30vw;
+  height: 30vh;
+  margin-top: 2vh;
+
+  
+}
+
+.Projects h1{
+  margin-bottom: 14vh;
+  color: aliceblue;
+  text-shadow: 3px 3px 5px rgb(223, 30, 237), 0 0 25px rgb(255, 0, 212), 0 0 5px rgb(214, 23, 244);
+}
+
+
+.Contact
+{
+  margin-top: 80vh;
+  position: relative;
+ 
+
+
+
+}
+
+.Contact h1{
+  color: aliceblue;
+  margin-bottom: 50vh;
+  position: absolute;
+  top: -18vh;
+  left: 38vw;
+  text-shadow: 3px 3px 5px rgb(223, 30, 237), 0 0 25px rgb(255, 0, 212), 0 0 5px rgb(214, 23, 244);
+ 
+}
+
+.Contact label
+{
+  color: aliceblue;
+  text-shadow: 3px 3px 5px rgb(223, 30, 237), 0 0 25px rgb(255, 0, 212), 0 0 5px rgb(214, 23, 244);
+ 
+}
+
+.form
+{
+  margin-bottom: 50vh;
+
+}
+
+
+.form .btn
+{
+  position: absolute;
+  top: 60vh;
+  left: 40vw;
+  width: 8vw;
+}
+
+
+.form input
+{
+  width: 20vw;
+  border-radius: 10px;
+}
+
+.form input:hover
+{
+  border-color: #f446e0;
+
+}
+
+.form .textarea
+{
+  border-radius: 10px;
+  position: absolute;
+  left: 32vw;
+ 
+}
+
+.footer{
+  width: 100%;
+  height: 5vh;
+  background:  linear-gradient(to right,#b117e0,#2aabbc)!important;
+  position: relative;
+}
+
+
+.footer i
+{
+  color: rgb(24, 28, 142);
+  position: absolute;
+  top: 1vh;
+  
+}
+
+.footer p{
+  position: absolute;
+  left: 1vw;
+  
+}
+
+
+.footer .Phone
+{
+  position: absolute;
+  left: 47vw;
+
+}
+
+.footer .Phone p{
+  position: absolute;
+
+}
+
+.footer .MyEmail
+{
+  position: absolute;
+  left: 83vw;
+}
+
+.footer .MyEmail p{
+  position: absolute;
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)
+ { 
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) 
+{
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)
+ {
+
+ }
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) 
+{
+
+ 
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px)
+{
+
+}
